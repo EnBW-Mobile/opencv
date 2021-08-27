@@ -1,0 +1,1 @@
+~/.pyenv/shims/python ./platforms/apple/build_xcframework.py -o ./xcframework --framework_name="opencv2" --iphoneos_archs="arm64" --iphonesimulator_archs="x86_64,arm64" --build_only_specified_archs --contrib ../opencv_contrib --debug --debug_info
